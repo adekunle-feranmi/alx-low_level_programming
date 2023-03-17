@@ -14,26 +14,6 @@ int main(void)
         long long lli;
         float f;
 
-        printf("size of a int: %ld byte(s)\n", sizeof(c));
-        ^C
-root@f769148f6669:/alx-low_level_programming/0x00-hello_world# rm -r 6-size.c
-root@f769148f6669:/alx-low_level_programming/0x00-hello_world# cat > 6-size.c
-#include <stdio.h>
-
-/**
-* You should produce the exact same output as in the example
-* Warnings are allowed
-*
-* Your program should return 0
-*/
-int main(void)
-{
-        char c;
-        int i;
-        long li;
-        long long lli;
-        float f;
-
         printf("size of a char: %ld byte(s)\n", sizeof(c));
         printf("size of a int: %ld byte(s)\n", sizeof(i));
         printf("size of a long: %ld byte(s)\n", sizeof(li));
